@@ -1,4 +1,4 @@
-package ru.netology.domain.ru.netology.domain.ru.netology.domain;
+package ru.netology.domain;
 
 public class ViewsInfo {
     private int count;

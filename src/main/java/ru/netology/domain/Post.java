@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-import ru.netology.domain.ru.netology.domain.ru.netology.domain.*;
+import domain.*;
 
 public class Post {
     private int id;
@@ -100,35 +100,35 @@ public class Post {
         this.friendsOnly = friendsOnly;
     }
 
-    public ru.netology.domain.ru.netology.domain.ru.netology.domain.CommentsInfo getCommentsInfo() {
+    public ru.netology.domain.CommentsInfo getCommentsInfo() {
         return CommentsInfo;
     }
 
-    public void setCommentsInfo(ru.netology.domain.ru.netology.domain.ru.netology.domain.CommentsInfo commentsInfo) {
+    public void setCommentsInfo(ru.netology.domain.CommentsInfo commentsInfo) {
         CommentsInfo = commentsInfo;
     }
 
-    public ru.netology.domain.ru.netology.domain.ru.netology.domain.LikesInfo getLikesInfo() {
+    public ru.netology.domain.LikesInfo getLikesInfo() {
         return LikesInfo;
     }
 
-    public void setLikesInfo(ru.netology.domain.ru.netology.domain.ru.netology.domain.LikesInfo likesInfo) {
+    public void setLikesInfo(ru.netology.domain.LikesInfo likesInfo) {
         LikesInfo = likesInfo;
     }
 
-    public ru.netology.domain.ru.netology.domain.ru.netology.domain.RepostsInfo getRepostsInfo() {
+    public ru.netology.domain.RepostsInfo getRepostsInfo() {
         return RepostsInfo;
     }
 
-    public void setRepostsInfo(ru.netology.domain.ru.netology.domain.ru.netology.domain.RepostsInfo repostsInfo) {
+    public void setRepostsInfo(ru.netology.domain.RepostsInfo repostsInfo) {
         RepostsInfo = repostsInfo;
     }
 
-    public ru.netology.domain.ru.netology.domain.ru.netology.domain.ViewsInfo getViewsInfo() {
+    public ru.netology.domain.ViewsInfo getViewsInfo() {
         return ViewsInfo;
     }
 
-    public void setViewsInfo(ru.netology.domain.ru.netology.domain.ru.netology.domain.ViewsInfo viewsInfo) {
+    public void setViewsInfo(ru.netology.domain.ViewsInfo viewsInfo) {
         ViewsInfo = viewsInfo;
     }
 
@@ -140,19 +140,19 @@ public class Post {
         this.postType = postType;
     }
 
-    public ru.netology.domain.ru.netology.domain.ru.netology.domain.PostSource getPostSource() {
+    public ru.netology.domain.PostSource getPostSource() {
         return PostSource;
     }
 
-    public void setPostSource(ru.netology.domain.ru.netology.domain.ru.netology.domain.PostSource postSource) {
+    public void setPostSource(ru.netology.domain.PostSource postSource) {
         PostSource = postSource;
     }
 
-    public ru.netology.domain.ru.netology.domain.ru.netology.domain.Geo getGeo() {
+    public ru.netology.domain.Geo getGeo() {
         return Geo;
     }
 
-    public void setGeo(ru.netology.domain.ru.netology.domain.ru.netology.domain.Geo geo) {
+    public void setGeo(ru.netology.domain.Geo geo) {
         Geo = geo;
     }
 

@@ -1,4 +1,4 @@
-package ru.netology.domain.ru.netology.domain.ru.netology.domain;
+package ru.netology.domain;
 
 public class Geo {
     private String type;
@@ -21,11 +21,11 @@ public class Geo {
         this.coordinates = coordinates;
     }
 
-    public ru.netology.domain.ru.netology.domain.ru.netology.domain.Place getPlace() {
+    public ru.netology.domain.Place getPlace() {
         return Place;
     }
 
-    public void setPlace(ru.netology.domain.ru.netology.domain.ru.netology.domain.Place place) {
+    public void setPlace(ru.netology.domain.Place place) {
         Place = place;
     }
 }
